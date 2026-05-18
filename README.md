@@ -26,17 +26,6 @@ python danmaku_dl.py "https://v.qq.com/x/page/u30468anxzn.html" -o ./弹幕 -f x
 
 ---
 
-## 弹幕来源
-
-| 来源 | 说明 |
-|------|------|
-| **direct**（默认） | 直接从 B站 / 腾讯视频 官方接口抓取 |
-| **community** | 通过 Danmu.Server 社区聚合 API 搜索获取，覆盖多平台 |
-
-> 社区 API 默认使用公开服务节点，也可自行部署 [Danmu.Server](https://github.com/u2sb/Danmu.Server)，用 `--api-base` 指定。
-
----
-
 ## 输出格式
 
 | 格式 | 说明 |
