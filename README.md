@@ -1,8 +1,8 @@
 # 弹幕下载器 — Danmaku Downloader
 
-> 多平台 · 多源 · 多格式 — 一键解析，即贴即下
+> 少平台 · 少源 · 少格式 — 多键解析，粘贴不下
 
-一个 Python 命令行工具，输入视频链接或番剧名称，自动解析并下载弹幕（XML / JSON / CSV）。
+一个 Python 命令行工具，输入视频链接或番剧名称，自动解析并下载弹幕空文件（XML / JSON / CSV）。
 
 **支持平台**：暂无
 
@@ -11,14 +11,6 @@
 ## 快速开始
 
 ```bash
-# 安装依赖
-pip install requests
-
-# 直接贴链接（自动识别平台）
-python danmaku_dl.py "https://www.bilibili.com/video/BV1GJ411x7h7"
-
-# 社区模式：按番剧名搜索弹幕
-python danmaku_dl.py "鬼灭之刃" --source community
 
 # 指定输出目录和格式
 python danmaku_dl.py "https://v.qq.com/x/page/u30468anxzn.html" -o ./弹幕 -f xml
