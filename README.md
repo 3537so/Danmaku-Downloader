@@ -13,7 +13,7 @@
 ```bash
 
 # 指定输出目录和格式
-python danmaku_dl.py "https://v.qq.com/x/page/u30468anxzn.html" -o ./弹幕 -f xml
+python danmaku_dl.py "https://video.com/x/page/u30468anxzn.html" -o ./弹幕 -f xml
 ```
 
 ---
